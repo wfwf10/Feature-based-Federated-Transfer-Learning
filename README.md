@@ -9,7 +9,8 @@ Department of Electrical Engineering and Computer Science, Syracuse University
 ---
 
 <img src="https://github.com/wfwf10/Feature-based-Federated-Transfer-Learning/blob/main/diagrams/FbFTL_diagram.png" width="644" height="501">
-We propose the FbFTL as an innovative federated learning approach to reduce the uplink payload by more than five orders of magnitude. Please refer to the paper for explicit explaination on learning structure, system design, and privacy analysis.
+
+We propose the FbFTL as an innovative federated learning approach that upload features and outputs instead of gradients to reduce the uplink payload by more than five orders of magnitude. Please refer to the paper for explicit explaination on learning structure, system design, and privacy analysis.
 
 
 # Results on CIFAR-10 Dataset

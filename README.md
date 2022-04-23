@@ -26,7 +26,7 @@ In the following table, we provide comparison between federated learning with [F
 | test accuracy | 89.1\% | 91.68\% | 85.59\% | 85.59\% |
 
 # Required packages installation
-We use python==3.6.9, numpy==1.19.5, torch==1.4.0, torchvision==0.5.0, and CUDA version 11.6
+We use python==3.6.9, numpy==1.19.5, torch==1.4.0, torchvision==0.5.0, and CUDA version 11.6. The dataset and source model will be automatically downloaded.
 
 # Citation
 If you find our work useful in your research, please consider citing:

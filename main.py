@@ -7,7 +7,6 @@ import torch.nn.functional as F
 from torchvision import datasets
 from torchvision import transforms
 from torch.utils.data import DataLoader
-import matplotlib.pyplot as plt
 import datetime
 
 #######################################

@@ -2,7 +2,7 @@
 
 This is the offical implementation for Python simulation of Feature-based Federated Transfer Learning (FbFTL), from the following paper: 
 
-  [Communication-Efficient Feature-based Federated Transfer Learning.](https://www.google.com) Globecom2022.  
+  [Communication-Efficient Feature-based Federated Transfer Learning.(not yet available)](https://www.google.com) Globecom2022.  
   Feng Wang, M. Cenk Gursoy and Senem Velipasalar  
 Department of Electrical Engineering and Computer Science, Syracuse University
 

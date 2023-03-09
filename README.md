@@ -31,34 +31,12 @@ We use python==3.6.9, numpy==1.19.5, torch==1.4.0, torchvision==0.5.0, and CUDA 
 # Citation
 If you find our work useful in your research, please consider citing:
 ```
-@INPROCEEDINGS{Gurs2212:Communication,
-AUTHOR="Feng Wang and M. Cenk Gursoy and Senem Velipasalar",
-TITLE="{Communication-Efficient} and {Privacy-Preserving} Feature-based Federated
-Transfer Learning",
-BOOKTITLE="2022 IEEE Global Communications Conference: Selected Areas in
-Communications: Machine Learning for Communications (Globecom2022 SAC MLC)",
-ADDRESS="Rio de Janeiro, Brazil",
-DAYS="4",
-MONTH=dec,
-YEAR=2022,
-KEYWORDS="federated learning; transfer learning; communication efficiency; payload;
-privacy",
-ABSTRACT="Federated learning has attracted growing interest as it preserves the
-clients' privacy. As a variant of federated learning, federated transfer
-learning utilizes the knowledge from similar tasks and thus has also been
-intensively studied. However, due to the limited radio spectrum, the
-communication efficiency of federated learning via wireless links is
-critical since some tasks may require thousands of Terabytes of uplink
-payload. In order to improve the communication efficiency, we in this paper
-propose the feature-based federated transfer learning as an innovative
-approach to reduce the uplink payload by more than five orders of magnitude
-compared to that of existing approaches. We first introduce the system
-design in which the extracted features and outputs are uploaded instead of
-parameter updates, and then determine the required payload with this
-approach and provide comparisons with the existing approaches.
-Subsequently, we analyze the random shuffling scheme that preserves the
-clients' privacy. Finally, we evaluate the performance of the proposed
-learning scheme via experiments on an image classification task to show its
-effectiveness."
+@inproceedings{wang2022communication,
+  title={Communication-Efficient and Privacy-Preserving Feature-based Federated Transfer Learning},
+  author={Wang, Feng and Gursoy, M Cenk and Velipasalar, Senem},
+  booktitle={GLOBECOM 2022-2022 IEEE Global Communications Conference},
+  pages={3875--3880},
+  year={2022},
+  organization={IEEE}
 }
 ```

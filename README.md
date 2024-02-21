@@ -31,12 +31,12 @@ We use python==3.6.9, numpy==1.19.5, torch==1.4.0, torchvision==0.5.0, and CUDA 
 # Citation
 If you find our work useful in your research, please consider citing:
 ```
-@INPROCEEDINGS{10000612,
-  author={Wang, Feng and Gursoy, M. Cenk and Velipasalar, Senem},
-  booktitle={GLOBECOM 2022 - 2022 IEEE Global Communications Conference}, 
-  title={Communication-Efficient and Privacy-Preserving Feature-based Federated Transfer Learning}, 
+@inproceedings{wang2022communication,
+  title={Communication-Efficient and Privacy-Preserving Feature-based Federated Transfer Learning},
+  author={Wang, Feng and Gursoy, M Cenk and Velipasalar, Senem},
+  booktitle={GLOBECOM 2022-2022 IEEE Global Communications Conference},
+  pages={3875--3880},
   year={2022},
-  pages={3875-3880},
-  doi={10.1109/GLOBECOM48099.2022.10000612}}
+  organization={IEEE}
 }
 ```

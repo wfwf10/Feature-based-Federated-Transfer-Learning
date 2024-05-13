@@ -26,7 +26,9 @@ In the following table, we provide comparison between federated learning with [F
 | test accuracy | 89.1\% | 91.68\% | 85.59\% | 85.59\% |
 
 # Required packages installation
-We use python==3.6.9, numpy==1.19.5, torch==1.4.0, torchvision==0.5.0, and CUDA version 11.6. The dataset and the source model will be automatically downloaded.
+We use python==3.6.9, numpy==1.19.5, torch==1.4.0, torchvision==0.5.0, and CUDA version 11.6 for the experiments on CIFAR-10 with VGG16. The dataset and the source model will be automatically downloaded.
+
+Specifically, for the experiments on SAMSUM with FLAN-T5, we use transformers==4.30.2, torchinfo==1.8.0, datasets==2.13.2, nltk==3.8.1, evaluate==0.4.1, huggingface_hub==0.16.4
 
 # Citation
 If you find our work useful in your research, please consider citing:

@@ -28,7 +28,7 @@ In the following table, we provide comparison between federated learning with [F
 | uplink payload per batch | **4.9 Gb** | **4.9 Gb** | **1.1 Gb** | **131 Kb**  |
 | total uplink payload | **3216 Tb** | **949 Tb** | **599 Tb** | **6.6 Gb** |
 | total downlink payload | 402 Tb | 253 Tb | 322 Tb | 3.8 Gb |
-| test accuracy | 89.1\% | 91.68\% | 85.59\% | 85.59\% |
+| test accuracy | 89.42\% | 93.75\% | 86.51\% | 86.51\% |
 
 # Results on SAMSum summary task with FLAN-T5-small language model
 In the following table, we consider [FLAN-T5-small](https://www.jmlr.org/papers/volume25/23-0870/23-0870.pdf) as a pre-trained language model, and fine-tune on [SAMSum](https://www.aclweb.org/anthology/D19-5409) summary task. As a fine-tuning task, this experiment does not include an FL setting, and we provide comparison between federated transfer learning with FedAvg that updating full model (FTL<sub>f</sub>), federated transfer learning with FedAvg that updating task-specific sub-model(FTL<sub>c</sub>), and FbFTL.  Compared to all other methods, FbFTL reduces the uplink payload by up to five orders of magnitude. 
@@ -41,7 +41,7 @@ In the following table, we consider [FLAN-T5-small](https://www.jmlr.org/papers/
 | uplink payload per batch  | **3.5 Gb** | **1.9 Gb** | **32.7 Kb** | **1.6 Gb** | **32.7 Kb** | **1.5 Gb** | **32.7 Kb** |
 | total uplink payload | **466.1 Tb** | **71.3 Tb** | **241.4 Mb** | **144.5 Tb** | **241.4 Mb** | **152.9 Tb** | **241.4 Mb** |
 | total downlink payload | 116.0 Tb | 32.2 Tb | 1.58 Gb | 77.3 Tb | 1.88 Gb | 90.2 Tb | 2.03 Gb |
-| validation ROUGE-1 | 45.9249 | 45.4680 | 45.4680 | 45.2827 | 45.2827 | 44.9862 | 44.9862  |
+| test ROUGE-1 | 45.9249 | 45.4680 | 45.4680 | 45.2827 | 45.2827 | 44.9862 | 44.9862  |
 
 # Required packages installation
 We use python==3.6.9, numpy==1.19.5, torch==1.4.0, torchvision==0.5.0, and CUDA version 11.6 for the experiments on CIFAR-10 with VGG16. The dataset and the source model will be automatically downloaded.

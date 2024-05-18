@@ -59,4 +59,13 @@ If you find our work useful in your research, please consider citing:
   organization={IEEE}
 }
 ```
+
+```
+@article{wang2024feature,
+  title={Feature-based Federated Transfer Learning: Communication Efficiency, Robustness and Privacy},
+  author={Wang, Feng and Gursoy, M Cenk and Velipasalar, Senem},
+  journal={arXiv preprint arXiv:2405.09014},
+  year={2024}
+}
+```
 Journal version comming soon

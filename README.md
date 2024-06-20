@@ -6,7 +6,7 @@ This is the offical implementation for Python simulation of Feature-based Federa
 Feng Wang, M. Cenk Gursoy and Senem Velipasalar  
 Department of Electrical Engineering and Computer Science, Syracuse University
 
-  Feature-based Federated Transfer Learning: Communication Efficiency, Robustness and Privacy.([TMLCN]comming soon, [arXiv](https://arxiv.org/abs/2405.09014))  
+  Feature-based Federated Transfer Learning: Communication Efficiency, Robustness and Privacy.([TMLCN](https://ieeexplore.ieee.org/abstract/document/10542971), [arXiv](https://arxiv.org/abs/2405.09014))  
 Feng Wang, M. Cenk Gursoy and Senem Velipasalar  
 Department of Electrical Engineering and Computer Science, Syracuse University
 
@@ -64,8 +64,8 @@ If you find our work useful in your research, please consider citing:
 @article{wang2024feature,
   title={Feature-based Federated Transfer Learning: Communication Efficiency, Robustness and Privacy},
   author={Wang, Feng and Gursoy, M Cenk and Velipasalar, Senem},
-  journal={arXiv preprint arXiv:2405.09014},
-  year={2024}
+  journal={IEEE Transactions on Machine Learning in Communications and Networking},
+  year={2024},
+  publisher={IEEE}
 }
 ```
-Journal version comming soon
